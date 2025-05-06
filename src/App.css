@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-continer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.expense-content{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.dropdown{
+  display: inline-block;
+}
+
+.expense-content button{
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.expense-content button:hover{
+  background-color: #0056b3;
+}

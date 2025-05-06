@@ -1,0 +1,23 @@
+.form-continer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.expense-content{
+    display: flex;
+    gap: 15px;
+}
+
+.expense-content button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.expense-content button:hover{
+    background-color: #0056b3;
+}
