@@ -1,13 +1,13 @@
 .login-wrapper{
-    background: linear-gradient(135deg, #fceabb, #f8b500);
+    background: linear-gradient(135deg, #efbaf8, #40193c);
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    font-family: 'Comic sans MS', cursive, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding: 2rem;
+    padding-top: 60px;
 }
 
 .login-title{
@@ -23,7 +23,7 @@
 }
 
 .login-form{
-    background: #fff;
+    background: #E6E6FA;
     padding: 2rem;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -42,7 +42,7 @@
 .form-input{
     width: 100%;
     padding: 0.8rem;
-    border: 2px solid #f8b500;
+    border: 2px solid #FF7F50;
     border-radius: 12px;
     font-size: 1rem;
     outline: none;
@@ -50,8 +50,8 @@
 
 .login-button{
     margin-top: 1.5rem;
-    background: #f8b500;
-    color: white;
+    background: linear-gradient(135deg, #98FF98, #1a3e1a);
+    color: lavendar;
     border: none;
     padding: 0.8rem 2rem;
     font-size: 1rem;

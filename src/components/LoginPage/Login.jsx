@@ -41,16 +41,16 @@ const Login = () => {
   }
 
   return (
-    <div className='login-wrapper'>
-        <h1 className='login-title'>hey broke bestie 👋</h1>
-        <p className='login-subtitle'>let's financially spiral... but like, with ✨aesthetic vibes✨</p>
+    <div className='fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50'>
+    <div className='bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 w-full max-w-md relative'>
+      <h1 classname='text-3xl font-semibold text-center mb-6'>Spendora</h1>
         <form onSubmit={handleSubmit} className='login-form'>
           <label htmlFor='email' className='form-label'>email</label>
           <input id= "email"
                  type='text'
                  value={email}
                  onChange={handleEmail}
-                 placeholder='Like your bank name, but cuter'
+                 placeholder='Your Email Id'
                  className='form-input'
                  required
           />
@@ -66,6 +66,7 @@ const Login = () => {
           <button type='submit' className='login-button'>log me in, I'm ready to cry 💸</button>
           <button type='button' className='signup-button' onClick={navigateToSigup}>No account, signup</button>
         </form>
+    </div>
     </div>
   )
 }
